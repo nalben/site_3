@@ -1,1 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root{
+    --white: #FFFFFF;
+    --dark: #2D2D2D;
+    --orange: #FF6600;
+    --hover-color: #FF9832;
+    --active-color: #CD3400;
+    --grey: #808080;
+    --grey2: #C0C0C0;
+    --light-grey: #F6F6F6;
+    --bullet-color: #DBDBDB;
+    --gradient: linear-gradient(90deg, #FF6600 0%, #F26659 27.4%, #F06177 37.4%, #E65D97 48.4%, #CA46D2 71.4%, #8D13F9 100%);
+}
+
+// background: var(--gradient);
+// color: transparent;
+// background-clip: text;
+
+body{
+    display: flex;
+    justify-content: center;
+    // font-family: montserrat;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--dark);
+    padding-right: calc(100vw - 100%);
+}
+.site-con{
+    flex-basis: 1920px;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+.a-text{
+    color: var(--white);
+    font-weight: 400;
+    font-size: 24px;
+    transition: all 0.5s;
+    &:hover{
+        color: var(--grey2);
+    }
+    &:active{
+        color: var(--orange);
+    }
+}
+.a-btn{
+    width: 100%;
+    color: var(--white);
+    background-color: var(--orange);
+    padding-top: 21px;
+    padding-bottom: 21px;
+    border-radius: 20px;
+    justify-content: center;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    &:hover{
+        background-color: var(--hover-color);
+    }
+    &:active{
+        background-color: var(--active-color);
+    }
+}
+.star{
+    position: relative;
+}

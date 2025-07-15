@@ -1,0 +1,52 @@
+.techlead{
+    width: 100%;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: center;
+    & img:first-child{
+        height: 442px;
+    }
+}
+.techlead__img-con{
+    position: relative;
+}
+.techlead__content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    flex-basis: 730px;
+}
+.techlead__emoji{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: end;
+    & h3{
+        font-weight: 700;
+        font-family: montserrat;
+        line-height: 52px;
+        font-size: 48px;
+        & span{
+            color: var(--orange);
+        }
+    }
+}
+#star_tech_1{
+    position: absolute;
+    left: -88px;
+    top: 30px;
+    scale: 150%;
+    width: 57px;
+    height: 57px;
+    rotate: 33deg;
+}
+#star_tech_2 {
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    bottom: -50px;
+    right: -50px;
+    scale: 150%;
+}

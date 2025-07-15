@@ -1,0 +1,58 @@
+.register__container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 160px;
+    padding: 60px 120px 60px 120px;
+    border-radius: 40px;
+    gap: 97px;
+    background-color: var(--dark);
+}
+.register__interact{
+    flex-basis: 760px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    & h2{
+        font-weight: 700;
+        font-family: montserrat;
+        color: var(--white);
+        font-size: 48px;
+        line-height: 52px;
+    }
+}
+.register__img-con{
+    position: relative;
+}
+#star_reg{
+    position: absolute;
+    bottom: 30px;
+    left: 42px;
+    scale: 220%;
+    rotate: 52deg;
+}
+
+
+
+.register__container-sec {
+    flex-direction: row-reverse;
+    padding: 60px 150px 60px 150px;
+    gap: 43px;
+}
+#star_reg_2{
+    position: absolute;
+    left: 29px;
+    top: 30px;
+    scale: 170%;
+    rotate: 75deg;
+}
+#star_reg_3 {
+    position: absolute;
+    right: 56px;
+    bottom: 40px;
+    scale: 170%;
+    rotate: 52deg;
+}
+

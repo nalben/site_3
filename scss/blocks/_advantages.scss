@@ -1,0 +1,106 @@
+.advantages{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    & h2{
+        text-align: center;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 52px;
+        font-family: montserrat;
+        & span{
+            color: var(--orange);
+        }
+    }
+    & h3{
+        font-size: 32px;
+        text-align: center;
+        color: var(--grey);
+        margin-top: 20px;
+    }
+}
+.advantages__headlines{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: fit-content;
+    margin-top: 40px;
+}
+.advantages__healines-item{
+    flex: 580px 1 1;
+    background-color: var(--light-grey);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 40px;
+    height: 100%;
+    position: relative;
+    & h2{
+        font-family: montserrat;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 80px;
+        text-align: start;
+    }
+    &:hover{
+        #advantages-star-1{
+            opacity: 0%;
+        }
+        #advantages-star-2{
+            opacity: 100%;
+        }
+        & h2{
+            color: var(--light-grey);
+        }
+        & p{
+            color: var(--grey);
+        }
+        background-color: var(--dark);
+        transition: all 0.5s;
+    }
+}
+
+#advantages-star-1{
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    scale: 150%;
+    rotate: 50deg;
+}
+#advantages-star-2 {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    scale: 150%;
+    rotate: 50deg;
+    opacity: 0%;
+}
+
+
+.advantages__points{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: fit-content;
+    margin-top: 30px;
+}
+.dvantages__points-item{
+    background-color: var(--light-grey);
+    border-radius: 40px;
+    padding: 30px;
+    height: 100%;
+    flex: 340px 0 1;
+    color: var(--grey);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition: all 0.5s;
+    & img{
+        width: 50px;
+    }
+    &:hover{
+        background-color: var(--dark);
+        color: var(--light-grey);
+    }
+}
